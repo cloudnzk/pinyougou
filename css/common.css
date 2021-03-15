@@ -190,6 +190,7 @@
 }
 
 .dropdown .dd {
+    display: none;
     width: 210px;
     /* 这里设置了465px的高度，已经溢出到父盒子下面了.也可以不设置，让文字自动撑开盒子 */
     height: 465px;
@@ -249,4 +250,100 @@
     font-size: 16px;
     /* 这里给a一个padding值，选中的范围可以大一点，方便用户点击链接 */
     padding: 0 25px;
+}
+
+/* 底部模块制作 */
+.footer {
+    box-sizing: border-box;
+    height: 415px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+}
+
+.mod_service {
+    box-sizing: border-box;
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mod_service ul li {
+    box-sizing: border-box;
+    float: left;
+    width: 240px;
+    height: 50px;
+    padding-left: 35px;
+}
+
+/* .mod_service ul li h5 {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../images/icons.png) no-repeat -252px -2px;
+    margin-right: 8px;
+} */
+
+.mod_service_zheng,
+.mod_service_kuai {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/icons.png);
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+
+.mod_service_zheng {
+    background-position: -252px -2px;
+}
+
+.mod_service_kuai {
+    background-position: -254px -54px;
+}
+
+.service_txt h4 {
+    font-size: 14px;
+}
+
+.service_txt p {
+    font-size: 12px;
+}
+
+.mod_help {
+    box-sizing: border-box;
+    height: 185px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.mod_help dl {
+    float: left;
+    width: 200px;
+}
+
+.mod_help dl:last-child {
+    width: 90px;
+    text-align: center;
+}
+
+.mod_help dl dt {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.mod_copyright {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.links a {
+    margin: 0 3px;
+}
+
+.copyright {
+    line-height: 20px;
 }
