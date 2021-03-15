@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* IE盒模型. width 和 height 属性包括内容，内边距和边框，但不包括外边距
+    /* 统一设置为IE盒模型（也称为C3盒子模型）. width 和 height 属性包括内容，内边距和边框，但不包括外边距
     因此修改内边距和边框大小不会撑大盒子
     */
     /* box-sizing: border-box; */

@@ -190,7 +190,7 @@
 }
 
 .dropdown .dd {
-    display: none;
+    /* display: none; */
     width: 210px;
     /* 这里设置了465px的高度，已经溢出到父盒子下面了.也可以不设置，让文字自动撑开盒子 */
     height: 465px;
