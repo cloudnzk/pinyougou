@@ -85,7 +85,7 @@
     top: 25px;
     left: 346px;
     width: 538px;
-    height: 32px;
+    height: 36px;
     border: 2px solid #b1191a;
 }
 
@@ -162,7 +162,7 @@
 }
 
 .nav {
-    height: 45px;
+    height: 47px;
     border-bottom: 2px solid #b1191a;
     /* overflow: hidden; */
 }
@@ -195,7 +195,7 @@
     /* 这里设置了465px的高度，已经溢出到父盒子下面了.也可以不设置，让文字自动撑开盒子 */
     height: 465px;
     background-color: #c81623;
-    margin-top: 1px;
+    margin-top: 2px;
 }
 
 .dropdown .dd ul li {
