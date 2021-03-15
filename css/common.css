@@ -194,6 +194,7 @@
     /* 这里设置了465px的高度，已经溢出到父盒子下面了.也可以不设置，让文字自动撑开盒子 */
     height: 465px;
     background-color: #c81623;
+    margin-top: 1px;
 }
 
 .dropdown .dd ul li {
@@ -223,6 +224,7 @@
     color: #fff;
 }
 
+/* 经过li的时候（这样区域大一点），里面的a颜色会变化 */
 .dropdown .dd ul li:hover a {
     color: #c81623;
 }
@@ -234,4 +236,17 @@
 
 .dropdown .dd ul li:hover span {
     color: #c81623;
+}
+
+.navitems ul li {
+    float: left;
+}
+
+.navitems ul li a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    /* 这里给a一个padding值，选中的范围可以大一点，方便用户点击链接 */
+    padding: 0 25px;
 }
