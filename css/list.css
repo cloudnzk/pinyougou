@@ -50,11 +50,16 @@
 }
 
 .sk_bd ul li {
+    /* 图片宽度和盒子宽度一样，加了边框还需要保持原宽度的话，
+    这样右边框会被相对右移的图片压住，隐藏撑出来这部分即可 */
     overflow: hidden;
     float: left;
     margin-right: 10px;
     width: 290px;
     height: 460px;
+    /* 如果不加这个透明边框，鼠标经过的时候盒子会往下抖
+    （因为原来没有边框，而鼠标经过在上面加了边框，图片相对下移）
+    加边框后固定图片位置，换边框颜色即可*/
     border: 1px solid transparent;
 }
 
